@@ -1,0 +1,11 @@
+version = 1
+test_patterns = []
+exclude_patterns = [
+  "test/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+  [analyzers.meta]
+  environment = ["nodejs","browser"]
